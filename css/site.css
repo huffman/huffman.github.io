@@ -1,0 +1,209 @@
+// http://meyerweb.com/eric/tools/css/reset/ 
+   /* v2.0 | 20110126 */
+   /* License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+// HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET */
+
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bitter-Regular'), url(/fonts/Bitter-Regular.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bitter-Regular'), url(/fonts/Bitter-Regular.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Bitter-Bold'), url(/fonts/Bitter-Bold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Bitter-Bold'), url(/fonts/Bitter-Bold.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #FFF;
+}
+
+.centered-body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.centered {
+    margin: 0;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+
+#content {
+}
+
+#content a {
+    color:#000;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+#content a:visited {
+    color:#000;
+    text-decoration: none;
+}
+#content a:hover {
+    color:#69869F;
+    text-decoration: none;
+}
+#content a:active {
+    color:#06233C;
+    text-decoration: none;
+}
+
+#social-links {
+    margin: 0.2em 0 0 0.3em;
+}
+
+a.social {
+    margin-left: 0.2em;
+    color: #244968;
+    text-decoration: none;
+    border-bottom: 0 !important;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .name {
+    color: #69869F;
+    line-height: 1.0em;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header {
+    float: left;
+    width: 200px;
+    margin-top: 10px;
+}
+
+#content {
+    float: right;
+    width: 560px;
+}
+
+#avatar {
+}
+
+#avatar img {
+    width: 128px;
+    height: 128px;
+    border: 4px solid black;
+}
+
+#page {
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8em;
+    z-index: 100;
+}
+
+#background-layer {
+    z-index: -1;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
